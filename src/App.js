@@ -12,9 +12,9 @@ function App() {
     <Header />
 
     <Routes>
-    
+
       <Route path="/" element={ <ProductList/> } / >
-      <Route path="/product/:productid" element={ <ProductDetail/> } / >
+      <Route path="/products/:productid" element={ <ProductDetail/> } / >
       <Route> 404 Not Found </Route>
     </Routes>
     </Router>      
